@@ -1,0 +1,20 @@
+<%= image_tag 'ballons.jpg', class: "ballons" %>
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @shop.name %>
+</p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @shop.street %>
+</p>
+
+<p>
+  <strong>Building number:</strong>
+  <%= @shop.building_number %>
+</p>
+
+<%= link_to 'Edit', edit_shop_path(@shop) %> |
+<%= link_to 'Back', shops_path %>

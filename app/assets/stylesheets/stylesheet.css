@@ -1,0 +1,9 @@
+stylesheet.css
+
+<%= image_tag 'ballons.jpg', class: "ballons" %>
+
+{
+	background-color: yellow;
+	
+
+}
